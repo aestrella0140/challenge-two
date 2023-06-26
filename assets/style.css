@@ -62,6 +62,18 @@ main {
     margin-top: 3%;
 }
 
+.profile-picture {
+    flex: 1 0 100px;
+    margin: 25px;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: var(--royal-blue);
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
 #bio {
     padding: 30px;
     margin: 40px;
