@@ -62,12 +62,27 @@ main {
     margin-top: 3%;
 }
 
+#bio {
+    padding: 30px;
+    margin: 40px;
+    border-width: 5px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: var(--royal-blue);
+    background-color: var(--beige);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
 .content {
     flex: 1 0 100px;
-    padding: 12px;
+    margin: 25px;
+    padding: 30px;
     border-style: groove;
+    border-radius: 25px;
     border-color: var(--royal-blue);
     text-align: center;
+    display: inline-block;
 }
 
 .content.first {
@@ -75,6 +90,8 @@ main {
 }
 
 .Contacts ul {
+    border-style: solid;
+    border-radius: 25px;
     background-color: var(--beige);
 }
 
@@ -85,4 +102,10 @@ main {
 
 .Contacts a {
     color: var(--orange-red);
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        display: inline;
+    }
 }
