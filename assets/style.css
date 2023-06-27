@@ -55,10 +55,13 @@ a {
 }
 
 main {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: stretch; */
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 3%;
+
 }
 
 .profile-picture {
@@ -85,12 +88,17 @@ main {
     font-style: oblique;
 }
 
-.content {
+.project-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin: 25px;
-    padding: 30px;
+}
+
+.content {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    margin: 10px;
+    padding: 10px;
     border-style: groove;
     border-radius: 25px;
     border-color: var(--royal-blue);
